@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.pyc
+mlruns/
+models/*.pkl
+models/*.joblib
+data/raw/
+data/processed/
+data/*.db
+.env
+.pytest_cache/
+.coverage
+htmlcov/
+scratch/
+# MS Word temp files
+~$*.docx
+mlflow.db
+
+# Notebook outputs
+notebooks/data/
+notebooks/models/
+notebooks/reports/
